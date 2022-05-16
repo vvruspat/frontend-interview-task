@@ -39,6 +39,10 @@ module.exports = {
           configFile: "tsconfig.json",
         },
       },
+      {
+        test: /\.(eot|woff|woff2|ttf|svg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
   output: {

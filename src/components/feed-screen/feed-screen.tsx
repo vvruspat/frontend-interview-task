@@ -1,35 +1,26 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import { useSelector } from 'react-redux';
+import { useAppDispatch } from '../../store/hooks';
+import { loadThemes, selectThemesStatus } from '../../store/themes/themesSlice';
+import { EFetchingStatus } from '../../types/fetching-status.type';
+import { FeedFilter } from '../feed-filter/feed-filter';
+import { FeedHeader } from '../feed-header/feed-header';
+import { Feed } from '../feed/feed';
 import { FeedScreenRoot } from "./feed-screen.styled";
 
-type Sentiment = "positive" | "neutral" | "negative";
+export const FeedScreen = () => {
+  const dispatch = useAppDispatch();
+  const themesStatus = useSelector(selectThemesStatus)
 
-interface FeedbackItem {
-  id: string;
-  text: string;
-  sentiment: Sentiment;
-}
-
-export const FeedScreen: React.FC = () => {
-  const feedbackItems: FeedbackItem[] = [
-    {
-      id: "id1",
-      text: "first feedback item",
-      sentiment: "negative",
-    },
-    {
-      id: "id2",
-      text: "second feedback item",
-      sentiment: "positive",
-    },
-  ];
+  useEffect(() => {
+    themesStatus === EFetchingStatus.INIT && dispatch(loadThemes());
+  }, [dispatch, themesStatus]);
 
   return (
     <FeedScreenRoot>
-      {feedbackItems.map((feedbackItem) => (
-        <div key={feedbackItem.id} data-testid={"feedback-item"}>
-          {feedbackItem.text}
-        </div>
-      ))}
+      <FeedHeader />
+      <FeedFilter />
+      <Feed />
     </FeedScreenRoot>
   );
 };
