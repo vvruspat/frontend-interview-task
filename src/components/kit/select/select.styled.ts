@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import DownArrowIcon from "../../assets/icons/caret.svg";
-import SelectedIcon from "../../assets/icons/selected.svg";
-import { OutlineButton } from './button';
+import styled from "styled-components";
+import DownArrowIcon from "../../../assets/icons/caret.svg";
+import SelectedIcon from "../../../assets/icons/selected.svg";
+import { OutlineButton } from "../button/button";
 
 export const SelectWrapperStyled = styled.div`
   min-width: 235px;
@@ -18,8 +18,8 @@ export const SelectStyled = styled(OutlineButton)<SelectStyledProps>`
   flex-direction: row;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  border-bottom-left-radius: ${({ isOpen }) => isOpen ? 0 : '10px'};
-  border-bottom-right-radius: ${({ isOpen }) => isOpen ? 0 : '10px'};
+  border-bottom-left-radius: ${({ isOpen }) => (isOpen ? 0 : "10px")};
+  border-bottom-right-radius: ${({ isOpen }) => (isOpen ? 0 : "10px")};
 `;
 
 export const DownArrowStyled = styled.div`
@@ -39,7 +39,7 @@ type DropdownStyledProps = {
 
 export const DropdownStyled = styled.div<DropdownStyledProps>`
   position: absolute;
-  display: ${({ isOpen }) => isOpen ? 'flex' : 'none'};
+  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   flex-direction: column;
   top: 0;
   z-index: 1000;
@@ -64,15 +64,16 @@ export const DropdownItemStyled = styled.div<DropdownItemStyledProps>`
   cursor: pointer;
   border-bottom: 1px solid var(--tertiary-content-basic-4-color);
 
-  background: ${({ highlighted }) => highlighted ? 'var(--tertiary-content-basic-6-color)' : 'transparent'};
+  background: ${({ highlighted }) =>
+    highlighted ? "var(--tertiary-content-basic-6-color)" : "transparent"};
 
   &:hover {
-    background: var(--tertiary-content-basic-6-color)
+    background: var(--tertiary-content-basic-6-color);
   }
 
   &:after {
-    content: ' ';
-    display: ${({ selected }) => selected ? 'inline-block' : 'none'};
+    content: " ";
+    display: ${({ selected }) => (selected ? "inline-block" : "none")};
     width: 1rem;
     height: 1rem;
     background: url(${SelectedIcon}) no-repeat center center;

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { SecondaryButton } from '../kit/button';
-import PositiveIcon from '../../assets/icons/positive.svg';
-import NegativeIcon from '../../assets/icons/negative.svg';
-import NeutralIcon from '../../assets/icons/neutral.svg';
+import styled from "styled-components";
+import { SecondaryButton } from "../../../kit";
+import PositiveIcon from "../../../../assets/icons/positive.svg";
+import NegativeIcon from "../../../../assets/icons/negative.svg";
+import NeutralIcon from "../../../../assets/icons/neutral.svg";
 
 export const FeedbackItemThemeStyled = styled(SecondaryButton)`
   border: 0 none;

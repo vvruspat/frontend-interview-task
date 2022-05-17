@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FeedbackItemDateStyled = styled.div`
   color: var(--primary-content-basic-3-color);

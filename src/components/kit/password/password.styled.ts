@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Input } from './input';
-import EyeOpenedIcon from '../../assets/icons/eye-opened.svg';
-import EyeClosedIcon from '../../assets/icons/eye-closed.svg';
+import { Input } from "../input";
+import EyeOpenedIcon from "../../../assets/icons/eye-opened.svg";
+import EyeClosedIcon from "../../../assets/icons/eye-closed.svg";
 
 export const PasswordWrapperStyled = styled.div`
   position: relative;
