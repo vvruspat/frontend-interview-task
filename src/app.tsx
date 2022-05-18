@@ -1,13 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-import { AuthProvider } from "./auth";
-import ErrorBoundary from "./components/error-boundary/error-boundary";
 import { GlobalStyles } from "./components/global-styles";
+import ErrorBoundary from "./components/error-boundary/error-boundary";
 import { Routes } from "./components/routes";
+import { AuthProvider } from "./auth";
 import { store } from "./store/store";
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <ErrorBoundary>
       <Provider store={store}>
@@ -19,5 +18,3 @@ const App: React.FC = () => {
     </ErrorBoundary>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById("react-root"));

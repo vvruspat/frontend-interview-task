@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error renders error big 1`] = `
+<div
+  class="sc-bdfBwQ sc-gsTCUz gfzQwd gsZrg"
+>
+  Test
+</div>
+`;
+
+exports[`error renders error centered 1`] = `
+<div
+  class="sc-bdfBwQ sc-gsTCUz ZOXct gsZrg"
+>
+  Test
+</div>
+`;
+
+exports[`error renders error small 1`] = `
+<div
+  class="sc-bdfBwQ sc-gsTCUz ksNmpp gsZrg"
+>
+  Test
+</div>
+`;
+
+exports[`error renders error without props 1`] = `
+<div
+  class="sc-bdfBwQ sc-gsTCUz lnvQCl gsZrg"
+>
+  Test
+</div>
+`;

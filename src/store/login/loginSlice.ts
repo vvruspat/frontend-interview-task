@@ -35,7 +35,7 @@ export const loginSlice = createSlice({
   },
 });
 
-const { setJWT, setError, setStatus } = loginSlice.actions;
+export const { setJWT, setError, setStatus } = loginSlice.actions;
 
 export const login =
   (username: string, password: string) =>

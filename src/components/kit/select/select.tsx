@@ -96,14 +96,27 @@ export const Select = ({
   }, [selected, onChange]);
 
   return (
-    <SelectWrapperStyled ref={ref} onKeyDown={handleKeydown} role="listbox">
-      <SelectStyled isOpen={isOpen} onClick={handleSelectClick}>
+    <SelectWrapperStyled
+      ref={ref}
+      onKeyDown={handleKeydown}
+      role="listbox"
+      data-testid="select-wrapper"
+    >
+      <SelectStyled
+        isOpen={isOpen}
+        onClick={handleSelectClick}
+        data-testid="select-button"
+      >
         {selected ? selected.label : placeholder}
         <DownArrowStyled />
       </SelectStyled>
 
       <DropdownWrapperStyled>
-        <DropdownStyled isOpen={isOpen} role="list">
+        <DropdownStyled
+          isOpen={isOpen}
+          role="list"
+          data-testid="select-dropdown"
+        >
           {options.map((opt, index) => (
             <DropdownItemStyled
               highlighted={highlighted === index}

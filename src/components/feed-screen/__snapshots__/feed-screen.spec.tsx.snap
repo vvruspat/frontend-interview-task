@@ -1,0 +1,1378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedScreen renders feedback items 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-jJEJSO gmdJgf"
+      >
+        <div
+          class="sc-fKFyDc elwWMq"
+        >
+          <div
+            class="sc-kEjbxe kemURr"
+          />
+          <button
+            class="sc-bdfBwQ sc-dlfnbm ddILAN AGrjb"
+          >
+            Log out
+          </button>
+        </div>
+        <div
+          class="sc-kfzAmx cSmyzx"
+        >
+          <div
+            class="sc-fodVxV hNyPet"
+            data-testid="select-wrapper"
+            role="listbox"
+          >
+            <button
+              class="sc-bdfBwQ sc-hKgILt sc-fFubgz ddILAN glSgeK eaPpDN"
+              data-testid="select-button"
+            >
+              All themes
+              <div
+                class="sc-bkzZxe jUyqGd"
+              />
+            </button>
+            <div
+              class="sc-idOhPF jwJWfQ"
+            >
+              <div
+                class="sc-dIUggk eorpuH"
+                data-testid="select-dropdown"
+                role="list"
+              >
+                <div
+                  aria-label="All themes"
+                  class="sc-hHftDr ieAuja"
+                  role="listitem"
+                >
+                  All themes
+                </div>
+                <div
+                  aria-label="Test theme 1"
+                  class="sc-hHftDr fuuIpX"
+                  role="listitem"
+                >
+                  Test theme 1
+                </div>
+                <div
+                  aria-label="Test theme 2"
+                  class="sc-hHftDr fuuIpX"
+                  role="listitem"
+                >
+                  Test theme 2
+                </div>
+                <div
+                  aria-label="Test theme 3"
+                  class="sc-hHftDr fuuIpX"
+                  role="listitem"
+                >
+                  Test theme 3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section
+          class="sc-iktFzd eATsfb"
+        >
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              ok when it works
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              very good experience with this app.
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              good
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Fast and easy
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6344"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              really easy to use
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Superb system. Easy to use. Well explained. Barclays have thought things through so everything is at your fingertips. Any problems there is a direct line to the assistants at Barclays who quickly solves the problem. Job done from my armchair !!!
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6344"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              it make it so much quicker to cheek my money
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6344"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              so easy with no complications
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              perfect and easy yo use.
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Like all things 'Barclays' its great!
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Great way to bank!
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              good
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              My link to the outside world. modern banking. 👌
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Easy to use, finger print security, loads fast
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6344"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6363"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Very basic and cumbersome
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              hate this app keep asking for my mobile number.
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              very straightforward
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Barclays have seen fit to alter the app making payments difficult and somewhat awkward not helpfull
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+                data-testid="feedback-item-theme"
+                data-themeid="6345"
+              />
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+                data-testid="feedback-item-theme"
+                data-themeid="6371"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-ezrdKe ZdmsD"
+            data-testid="feedback-item"
+          >
+            <div
+              class="sc-kLgntA fmGllt"
+            >
+              Great
+            </div>
+            <div
+              class="sc-bYEvPH gBcgcN"
+            >
+              <button
+                class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+                data-testid="feedback-item-theme"
+                data-themeid="6374"
+              />
+            </div>
+            <div
+              class="sc-iwyYcG clkcmS"
+              data-testid="feedback-item-date"
+            >
+              July 18, 2019
+            </div>
+            <hr
+              class="sc-hBEYos dnEUlo"
+            />
+          </div>
+          <div
+            class="sc-bBXqnf iFQvMU"
+          />
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-jJEJSO gmdJgf"
+    >
+      <div
+        class="sc-fKFyDc elwWMq"
+      >
+        <div
+          class="sc-kEjbxe kemURr"
+        />
+        <button
+          class="sc-bdfBwQ sc-dlfnbm ddILAN AGrjb"
+        >
+          Log out
+        </button>
+      </div>
+      <div
+        class="sc-kfzAmx cSmyzx"
+      >
+        <div
+          class="sc-fodVxV hNyPet"
+          data-testid="select-wrapper"
+          role="listbox"
+        >
+          <button
+            class="sc-bdfBwQ sc-hKgILt sc-fFubgz ddILAN glSgeK eaPpDN"
+            data-testid="select-button"
+          >
+            All themes
+            <div
+              class="sc-bkzZxe jUyqGd"
+            />
+          </button>
+          <div
+            class="sc-idOhPF jwJWfQ"
+          >
+            <div
+              class="sc-dIUggk eorpuH"
+              data-testid="select-dropdown"
+              role="list"
+            >
+              <div
+                aria-label="All themes"
+                class="sc-hHftDr ieAuja"
+                role="listitem"
+              >
+                All themes
+              </div>
+              <div
+                aria-label="Test theme 1"
+                class="sc-hHftDr fuuIpX"
+                role="listitem"
+              >
+                Test theme 1
+              </div>
+              <div
+                aria-label="Test theme 2"
+                class="sc-hHftDr fuuIpX"
+                role="listitem"
+              >
+                Test theme 2
+              </div>
+              <div
+                aria-label="Test theme 3"
+                class="sc-hHftDr fuuIpX"
+                role="listitem"
+              >
+                Test theme 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="sc-iktFzd eATsfb"
+      >
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            ok when it works
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            very good experience with this app.
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            good
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Fast and easy
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6344"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            really easy to use
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Superb system. Easy to use. Well explained. Barclays have thought things through so everything is at your fingertips. Any problems there is a direct line to the assistants at Barclays who quickly solves the problem. Job done from my armchair !!!
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6344"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            it make it so much quicker to cheek my money
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6344"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            so easy with no complications
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            perfect and easy yo use.
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Like all things 'Barclays' its great!
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Great way to bank!
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            good
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            My link to the outside world. modern banking. 👌
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Easy to use, finger print security, loads fast
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6344"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6363"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Very basic and cumbersome
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            hate this app keep asking for my mobile number.
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            very straightforward
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Barclays have seen fit to alter the app making payments difficult and somewhat awkward not helpfull
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+              data-testid="feedback-item-theme"
+              data-themeid="6345"
+            />
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-giIncl ddILAN AGrjb hVMVSQ cORmnV"
+              data-testid="feedback-item-theme"
+              data-themeid="6371"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-ezrdKe ZdmsD"
+          data-testid="feedback-item"
+        >
+          <div
+            class="sc-kLgntA fmGllt"
+          >
+            Great
+          </div>
+          <div
+            class="sc-bYEvPH gBcgcN"
+          >
+            <button
+              class="sc-bdfBwQ sc-dlfnbm sc-cxFLnm sc-lmoMRL ddILAN AGrjb hVMVSQ jvshTp"
+              data-testid="feedback-item-theme"
+              data-themeid="6374"
+            />
+          </div>
+          <div
+            class="sc-iwyYcG clkcmS"
+            data-testid="feedback-item-date"
+          >
+            July 18, 2019
+          </div>
+          <hr
+            class="sc-hBEYos dnEUlo"
+          />
+        </div>
+        <div
+          class="sc-bBXqnf iFQvMU"
+        />
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -32,7 +32,6 @@ export const Feed = () => {
   }, [dispatch, feedbackItemsStatus]);
 
   useEffect(() => {
-    console.log("feedbackError", feedbackError);
     if (feedbackError && feedbackError.status === 401) {
       dispatch(logout());
     }
@@ -57,7 +56,7 @@ export const Feed = () => {
       {feedbackItemsStatus === EFetchingStatus.FETCHING && <Spinner />}
       {feedbackItemsStatus === EFetchingStatus.ERROR && (
         <Error center={true} size="large">
-          Server error
+          Server error {JSON.stringify(feedbackError)}
         </Error>
       )}
 

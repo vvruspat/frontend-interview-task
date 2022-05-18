@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text renders text big 1`] = `
+<div
+  class="sc-bdfBwQ gfzQwd"
+>
+  Test
+</div>
+`;
+
+exports[`text renders text centered 1`] = `
+<div
+  class="sc-bdfBwQ ZOXct"
+>
+  Test
+</div>
+`;
+
+exports[`text renders text small 1`] = `
+<div
+  class="sc-bdfBwQ ksNmpp"
+>
+  Test
+</div>
+`;
+
+exports[`text renders text without props 1`] = `
+<div
+  class="sc-bdfBwQ lnvQCl"
+>
+  Test
+</div>
+`;

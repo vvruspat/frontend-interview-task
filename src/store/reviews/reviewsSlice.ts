@@ -50,7 +50,8 @@ export const reviewsSlice = createSlice({
   },
 });
 
-const { addReviews, setTheme, setError, setStatus } = reviewsSlice.actions;
+export const { addReviews, setTheme, setError, setStatus } =
+  reviewsSlice.actions;
 
 export const loadFeedbacks =
   (limit: number = 20, offset: number = 0, theme_id?: number) =>
@@ -66,6 +67,7 @@ export const loadFeedbacks =
       dispatch(addReviews(reviews.data.data));
       dispatch(setStatus(EFetchingStatus.SUCCESS));
     } catch (e) {
+      console.log("error", e);
       dispatch(setError(e));
       dispatch(setStatus(EFetchingStatus.ERROR));
     }

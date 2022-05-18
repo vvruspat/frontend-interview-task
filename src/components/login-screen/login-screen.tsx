@@ -40,7 +40,6 @@ export const LoginScreen = () => {
   const onSubmit = useCallback(
     (e: FormEvent) => {
       e.preventDefault();
-
       dispatch(login(username, password));
     },
     [dispatch, username, password],
@@ -64,6 +63,7 @@ export const LoginScreen = () => {
               type={"text"}
               placeholder={"login"}
               id={"login"}
+              data-testid={"login-input"}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 setUsername(e.target.value)
               }
@@ -74,6 +74,7 @@ export const LoginScreen = () => {
             <Password
               id={"password"}
               placeholder={"password"}
+              data-testid={"password-input"}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 setPassword(e.target.value)
               }
@@ -83,7 +84,11 @@ export const LoginScreen = () => {
             <Error size="medium">Invalid username or password</Error>
           )}
           <FormRow>
-            <PrimaryButton type={"submit"} disabled={disabled}>
+            <PrimaryButton
+              type={"submit"}
+              disabled={disabled}
+              data-testid={"submit-button"}
+            >
               Log in
             </PrimaryButton>
           </FormRow>

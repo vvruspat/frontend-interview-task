@@ -13,9 +13,15 @@ export const Password = ({ ...inputProps }) => {
     <PasswordWrapperStyled>
       <PasswordStyled {...inputProps} type={isVisible ? "text" : "password"} />
       {isVisible ? (
-        <ShowPasswordButton onClick={() => setIsVisible(!isVisible)} />
+        <ShowPasswordButton
+          onClick={() => setIsVisible(!isVisible)}
+          data-testid="show-password-button"
+        />
       ) : (
-        <HidePasswordButton onClick={() => setIsVisible(!isVisible)} />
+        <HidePasswordButton
+          onClick={() => setIsVisible(!isVisible)}
+          data-testid="hide-password-button"
+        />
       )}
     </PasswordWrapperStyled>
   );

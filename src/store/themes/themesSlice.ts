@@ -33,7 +33,7 @@ export const themesSlice = createSlice({
   },
 });
 
-const { setThemes, setError, setStatus } = themesSlice.actions;
+export const { setThemes, setError, setStatus } = themesSlice.actions;
 
 export const loadThemes =
   () =>

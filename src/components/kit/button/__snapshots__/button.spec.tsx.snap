@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders OutlineButton 1`] = `
+<button
+  class="sc-bdfBwQ sc-hKgILt ddILAN glSgeK"
+>
+  Test
+</button>
+`;
+
+exports[`Button renders PrimaryButton 1`] = `
+<button
+  class="sc-bdfBwQ sc-gsTCUz ddILAN fxcCaX"
+>
+  Test
+</button>
+`;
+
+exports[`Button renders SecondaryButton 1`] = `
+<button
+  class="sc-bdfBwQ sc-dlfnbm ddILAN AGrjb"
+>
+  Test
+</button>
+`;
+
+exports[`Button renders button 1`] = `
+<button
+  class="sc-bdfBwQ ddILAN"
+>
+  Test
+</button>
+`;
